@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(189, 188, 188);
+
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    height: 80%;
+    width: 35%;
+    background-color: rgb(189, 188, 188);
+    box-shadow: 2px 0px 20px #000;
+    padding: 4%;
+}
+
+form h4{
+    margin-bottom: 10%;
+}
+
+form .nom{
+    margin-bottom: 8%;
+}
+
+form .nom input{
+    width: 40%;
+    height: 25px;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+form .naissance{
+    margin-bottom: 8%;
+}
+
+form .naissance input{
+    width: 81%;
+    border: none;
+    height: 25px;
+    border-radius: 4px;
+}
+
+
+form .adresse input{
+    width: 81%;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 4px;
+}
+
+form .adresse .grille{
+    display: grid;
+    grid-template-columns: repeat(2, 42%);
+}
+
+form .adresse .grille input, form .adresse .grille select{
+    width: 95%;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+}
