@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b6d2f1;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+}
+
+nav img{
+    width: 10%;
+    height: 225%;
+    margin-top: 1%;
+    margin-left: 100px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-evenly;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+nav ul .accueil{
+    color: #1686df;
+}
+
+nav .btn{
+    display: flex;
+    height: 70%;
+    margin-right: 50px;
+}
+
+nav .btn button{
+    width: 150px;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: none;
+    border-radius: 14px;
+}
+
+nav .btn .btn-one{
+    background-color: transparent;
+    color: #1686df;
+}
+
+nav .btn .btn-two{
+    color: white;
+    background-color: #1686df;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .div-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main article{
+    width: 50%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+main article div{
+    text-align: start;
+    color: #0a0430;
+}
+
+
+main article div h1{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+main article div h1 span{
+    color: #1686df;
+    font-weight: 800;
+    font-style: italic;
+}
+
+main article div p{
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+main article button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1686df;
+    color: white;
+    font-size: 1.1em;
+}
+
+main aside{
+    width: 50%;
+}
+
+main aside img{
+    width: 700px;
+    height: 700px;
+}
